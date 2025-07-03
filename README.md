@@ -35,7 +35,7 @@ financial_time_series_prediction/
 
 1. Clone le dépôt :
     ```bash
-    git clone *https://github.com/FayssalSabri/TimeSeriesForecast.git*
+    git clone https://github.com/FayssalSabri/TimeSeriesForecast.git
 
     cd TimeSeriesForecast
 
