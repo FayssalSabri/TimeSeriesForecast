@@ -37,7 +37,7 @@ financial_time_series_prediction/
     ```bash
     git clone https://github.com/FayssalSabri/TimeSeriesForecast.git
 
-    cd TimeSeriesForecast
+    cd financial_time_series_prediction
 
     ```
 
