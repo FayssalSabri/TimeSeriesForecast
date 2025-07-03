@@ -9,9 +9,6 @@ Ce projet vise à prédire les séries temporelles financières (par exemple les
 ```
 financial_time_series_prediction/
 │
-├── notebooks/
-│   ├── 01_EDA.ipynb                # Analyse exploratoire des données
-│   └── 02_Model_Training.ipynb     # Entraînement des modèles
 │
 ├── src/
 │   ├── __init__.py
@@ -28,7 +25,7 @@ financial_time_series_prediction/
 │
 ├── requirements.txt                # Dépendances Python
 ├── .gitignore                      # Fichiers/dossiers à ignorer
-├── main.py                         # Script principal (optionnel)
+├── main.py                         # Script principal
 └── README.md                       # Ce fichier
 ```
 
@@ -38,8 +35,10 @@ financial_time_series_prediction/
 
 1. Clone le dépôt :
     ```bash
-    git clone https://github.com/ton-utilisateur/financial_time_series_prediction.git
-    cd financial_time_series_prediction
+    git clone *https://github.com/FayssalSabri/TimeSeriesForecast.git*
+
+    cd TimeSeriesForecast
+
     ```
 
 2. Installe les dépendances :
@@ -51,8 +50,7 @@ financial_time_series_prediction/
 
 ## 🚀 Comment exécuter
 
-- Lance les notebooks Jupyter pour l'analyse exploratoire et l'entraînement des modèles.
-- Utilise `main.py` pour exécuter un pipeline complet si tu le mets en place.
+- Utilise `main.py` pour exécuter un pipeline complet.
 
 ---
 
@@ -61,7 +59,7 @@ financial_time_series_prediction/
 - Extraire et nettoyer des données financières
 - Explorer et visualiser les tendances
 - Créer des features pertinentes
-- Construire des modèles prédictifs (ARIMA, LSTM, Prophet, etc.)
+- Construire des modèles prédictifs (ARIMA, LSTM, RandomForest, Prophet, etc.)
 - Évaluer les performances
 
 ---
